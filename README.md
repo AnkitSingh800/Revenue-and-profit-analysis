@@ -1,37 +1,37 @@
 ![pizza](https://github.com/user-attachments/assets/62d7f278-dd92-44e6-93fb-0d7fa44fc935)
 
-#Revenue and Profit Analysis of Pizza's Sales 
+# Revenue and Profit Analysis of Pizza's Sales 
 
 This project focuses on analyzing pizza sales data from 2015 to gain insights into profitability and revenue generation. The analysis aims to identify key factors driving sales, customer preferences, and order patterns. By evaluating pizza performance, profit margins, and peak sales periods, the goal is to recommend strategies to increase revenue and optimize operations, ensuring sustained business growth.
 
-##Intorduction 
+## Intorduction 
 Introduce the business context, explaining that understanding sales patterns, customer preferences, and profit margins is crucial for optimizing operations in the food industry.
 Mention the significance of pizza as a popular food item, making it essential to analyze pizza sales data to make informed business decisions.
 
-##Objective:
+## Objective:
 
 Clearly state the main objective of the analysis: to gain insights into revenue and profitability from pizza sales in 2015.
 Highlight how this analysis will help uncover customer preferences, order trends, and profitability, and identify ways to increase revenue.
 
-##Data Analysis Process
+## Data Analysis Process
 In this project, I have followed a systematic approach to analyze the pizza sales data and derive meaningful insights. The analysis process involved the following steps:
 1.Data Collection: The pizza sales data used in this analysis is collected from Kaggle which is the Data Science community. The link to the dataset is given below: https://www.kaggle.com/datasets/shilongzhuang/pizza-sales
 
 2.Dataset Description: This pizza sales dataset make up 12 relevant features.
 
--pizza_id: The unique identifier for each pizza in the dataset.
--order_id: The unique identifier for each pizza order.
--pizza_name_id: The identifier for each specific pizza name.
--quantity: The number of pizzas ordered in each transaction.
--order_date: The date when the pizza order was placed.
--order_time: The time at which the pizza order was placed.
--unit_price: The price of a single unit of pizza.
--total_price: The total price of the pizza order, calculated as the unit price multiplied by the quantity.
--pizza_size: The size or dimensions of the pizza. (S,M,L,XL,XXL)
--pizza_category: The category or classification of the pizza, indicating its type or style. (Classic, Veggie, Supreme, Chicken)
--pizza_ingredients: The list of ingredients used in the pizza preparation.
--pizza_name: The name or label assigned to each specific pizza.
--Data Preprocessing: I performed data cleaning and transformation to ensure the dataset's quality and suitability for analysis. This included handling missing values, removing duplicates, and formatting data types.
+- pizza_id: The unique identifier for each pizza in the dataset.
+- order_id: The unique identifier for each pizza order.
+- pizza_name_id: The identifier for each specific pizza name.
+- quantity: The number of pizzas ordered in each transaction.
+- order_date: The date when the pizza order was placed.
+- order_time: The time at which the pizza order was placed.
+- unit_price: The price of a single unit of pizza.
+- total_price: The total price of the pizza order, calculated as the unit price multiplied by the quantity.
+- pizza_size: The size or dimensions of the pizza. (S,M,L,XL,XXL)
+- pizza_category: The category or classification of the pizza, indicating its type or style. (Classic, Veggie, Supreme, Chicken)
+- pizza_ingredients: The list of ingredients used in the pizza preparation.
+- pizza_name: The name or label assigned to each specific pizza.
+- Data Preprocessing: I performed data cleaning and transformation to ensure the dataset's quality and suitability for analysis. This included handling missing values, removing duplicates, and formatting data types.
 3. SQL Queries: I have utilized SQL queries to extract relevant information from the dataset. This involved querying the database to obtain insights into customer preferences, revenue generation, and order patterns.
 
 ## Insights
